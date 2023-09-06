@@ -73,6 +73,8 @@ volume = phi*r*r*t
 def volume(phi,r,t):
     hasil = phi*r*r*t
     return hasil
+print()
+print("======Hasilnya======")
 print("Volume tabung adalah =", volume(phi,r,t,),"cm")
 print()
 print()
@@ -95,5 +97,7 @@ t = int(input("Masukkan tinggi = "))
 def volume(phi,r,t):
     hasil = phi*r*r*t
     return hasil
+print()
+print("------Hasilnya------")
 print("Volume tabung adalah =", volume(phi,r,t,))
 #coding 3 selesai
